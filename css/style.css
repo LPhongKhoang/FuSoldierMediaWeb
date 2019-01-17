@@ -28,22 +28,38 @@ body, html{
 
 
 .pimg1{
-  background-image:url('../img/image1.jpg');
+  background-image:url('../img/posterMain.png');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('../img/image2.jpg');
+  background-image:url('../img/shop.PNG');
   min-height:400px;
 }
 
 .pimg3{
-  background-image:url('../img/image3.jpg');
+  background-image:url('../img/poster1.PNG');
   min-height:400px;
 }
 .pimg4{
-  background-image:url('../img/image3.jpg');
+  background-image:url('../img/alpha.png');
   min-height:400px;
+}
+
+.pimg5{
+  background-image:url('../img/bg.png');
+  min-height:100%;
+  position: relative;
+}
+
+.pimg5 a{
+  color: red;
+}
+
+.footer{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 .section{
@@ -82,11 +98,18 @@ body, html{
   height:auto;
 }
 
+.image-game{
+  margin: 5px 10px;
+  overflow: hidden;
+}
+
 .image-game:hover{
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25);
 }
 
 .image-scale{
+  max-width: 100%;
+  height: auto;
   transition: transform .3s 0s ease-in;
 }
 
